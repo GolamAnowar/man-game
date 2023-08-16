@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <head>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- or -->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+</head>
+<body>
+
+    <div class="game-modal">
+        <div class="content">
+            <img src="lost.gif" alt="">
+            <h3>game over !</h3>
+            <p>the correct word was : <b>rainbow</b></p>
+            <button class="play-again">play again</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="hangman-box">
+            <img src="hangman-0.svg" alt="">
+            <h3>hangman game</h3>
+        </div>
+        <div class="game-box">
+            <ul class="word-display">
+                <!-- <li class="letter guessed"></li> -->
+            </ul>
+            <h4 class="hint-text">
+                hint : 
+                <img src="" alt="">
+            </h4>
+            <h4 class="guesses-text">
+                incorrect guesses : 
+                <b>0 / 6</b>
+            </h4>
+            <div class="keyboard">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="word.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
